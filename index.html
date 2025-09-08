@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Class Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<style>
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+</style>
+<body>
+  <header>
+    <h1>My Class Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="profile">
+      <h2>My Profile</h2>
+      <img src="profile.jpg" alt="Your Name" class="profile-img">
+      <p>Hello! I'm [Your Name], a student of [Your Class]. I love learning HTML, CSS, and building awesome projects!</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of your first project goes here.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of your second project goes here.</p>
+      </div>
+      <!-- Add more projects as you like -->
+    </section>
+
+    <section id="aboutus">
+      <h2>About Us</h2>
+      <p>We are students of [Your Class]. This website shows our practice work, projects, and progress in web development.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Class Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
